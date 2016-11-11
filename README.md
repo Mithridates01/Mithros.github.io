@@ -1,2 +1,1 @@
-# Mithros.github.io
-Personal Website
+This web page is created to promote freedom, prosperity, and human right through the development of new technologies and give people from developers to everyday people an overview of the technology landscape (which is rapidly changing on a daily basis). 
