@@ -4,50 +4,56 @@
   <title>Let Us Know</title>
 </head>
 <body>
-<h1>Tools of Freedom Podcast</h1>
-  <NAV> 
-    <a href="./Index.html">Home</a>
-    <a href="./form.html">Let Us Know</a>
-    <a href="./Resources.html">Resources</a> 
-  </NAV>
-  <h2>Let Us Know!</h2>
-    <p></p>
-  <form>
-    <fieldset>
-      <div>
-        <label>Found a New Technology you would like us to talk about?</label>
-        <br>
-        <textarea cols="50" rows="10" placeholder="Links, developer names, summary of technology and its impact" name="newtech_summary" ></textarea>
-      </div>
-      <div>
-        <label>Email</label>
-        <input type="Email" name="Email">
-      </div>
-      <div>
-        <label>Name</label>
-        <input type="name" name="Person_name">
-      </div>
-      <button type="Submit">Submit</button>
-    </fieldset>
-    <fieldset>
-      <div>
-        <label>Rate Us!</label>
-        <select name="rating">
-          <option value="Excellent">Excellent!</option>
-          <option value="Good">Good.</option>
-          <option value="some_work">Needs some work.</option>
-          <option value="alot_work">Needs a lot of work.</option>
-        </select>
-      </div>
-      <button type="Submit">Submit</button>
-    </fieldset>
-    <fieldset>
-      <div>
-        <label>Think we can improve? Let us know!</label>
-        <input type="text" name="feedback">
-      </div>
-      <button type="Submit">Submit</button>
-    </fieldset>
-  </form>
+  <header>
+    <h1>Tools of Freedom Podcast</h1>
+    <NAV> 
+      <a href="./Index.html">Home</a>
+      <a href="./form.html">Let Us Know</a>
+      <a href="./Resources.html">Resources</a> 
+    </NAV>
+  </header>
+  <main>
+    <h2>Let Us Know!</h2>
+      <p></p>
+    <form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi" method="post">
+      <fieldset>
+        <div>
+          <label>
+            Found a New Technology you would like us to talk about?
+          </label>
+          <br>
+          <textarea cols="59" rows="10" placeholder="Links, developer names, summary of technology and its , etc." name="newtech_summary" ></textarea>
+        </div>
+        <div>
+          <label>Email</label>
+          <input type="Email" name="Email">
+        </div>
+        <div>
+          <label>Name</label>
+          <input type="name" name="Person_name">
+        </div>
+        <button type="Submit">Submit</button>
+      </fieldset>
+      <fieldset>
+        <div>
+          <label>Rate Us!</label>
+          <select name="rating">
+            <option value="Excellent">Excellent!</option>
+            <option value="Good">Good.</option>
+            <option value="some_work">Needs some work.</option>
+            <option value="alot_work">Needs a lot of work.</option>
+          </select>
+        </div>
+        <button type="Submit">Submit</button>
+      </fieldset>
+      <fieldset>
+        <div>
+          <label>Think we can improve? Let us know!</label>
+          <input type="text" name="feedback">
+        </div>
+        <button type="Submit">Submit</button>
+      </fieldset>
+    </form>
+  </main>
 </body>
 </html>
