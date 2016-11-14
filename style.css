@@ -1,4 +1,72 @@
-p {
+
+header {
+    background-color: rgb(204, 38, 0);
+    border: 3px solid #0b0a0a;
+    text-align: center;
+    margin: 0px;
+}
+
+header h1 {
+  font-family: impact, sans-serif;
+  color: #0b0a0a;
+  font-size: 4em;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+}
+
+nav {
+  margin-bottom: 4px;
+
+}
+
+nav a{
+text-decoration: none;
+border: 2px solid black;
+color: #ffd600;
+background-color: black;
+border-radius: 10px;
+margin-bottom: 1px;
+padding: 3px;
+}
+
+nav a:hover{
+  background-color: white;
+  border-color: white;
+  color: black;
+}
+
+main a:visited {
+  color: red;
+
+}
+
+main p {
   background-color: gold;
-  
+
+}
+main {
+  background-color: #0f5ba7;
+  margin: 0px;
+}
+
+.game_changers {
+  font-family: helvetica;
+}
+
+#Game_changerh2 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 805px) {
+  #intro {
+    float: left;
+    max-width: 400px
+
+  }
+  #GCH {
+float: right;
+max-width: 400px
+  }
 }
